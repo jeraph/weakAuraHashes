@@ -1,0 +1,42 @@
+#showtooltip
+/cast ##SKILL##
+/w Odrálaga ##SKILL##
+
+#showtooltip
+/cast Tremor Totem
+/w Odrálaga Tremor Totem
+
+#showtooltip
+/cast Earthbind Totem
+/w Odrálaga Earthbind Totem
+
+#showtooltip
+/cast Healing Stream Totem
+/w Odrálaga Healing Stream Totem
+
+#showtooltip
+/cast Searing Totem
+/w Odrálaga Searing Totem
+
+#showtooltip
+/cast Stoneskin Totem
+/w Odrálaga Stoneskin Totem
+
+#showtooltip
+/cast Strength of Earth Totem
+/w Odrálaga Strength of Earth Totem
+
+#showtooltip
+/cast Fire Nova Totem
+/w Odrálaga Fire Nova Totem
+
+#showtooltip
+/cast Frost Shock
+/w Odrálaga Frost Shock
+
+#showtooltip
+/cast Ghost Wolf
+/w Odrálaga Ghost Wolf
+
+/follow Odrálaga
+/w Odrálaga AF

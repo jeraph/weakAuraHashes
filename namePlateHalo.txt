@@ -1,0 +1,53 @@
+function()
+    local region = aura_env.region
+    local plate = C_NamePlate.GetNamePlateForUnit("target")
+    if plate then
+        region:ClearAllPoints()
+        region:SetPoint("CENTER", plate, "CENTER", 0, 170)
+        region:Show()
+    else
+        region:Hide()
+    end
+    return true
+end
+
+
+
+function(event, arg1, arg2, ...)
+  return aura_env.whisper
+end
+
+function(event, msg, ...)
+ aura_env.whisper = msg
+ return true
+end
+
+function(...)
+    if aura_env.whisper == "Big Heals" then
+        return 136052
+    elseif aura_env.whisper == "Ghost Wolf" then
+        return 136095
+    elseif aura_env.whisper == "Small Heals" then
+        return 136043
+    elseif aura_env.whisper == "Earthbind Totem" then
+        return 136102
+    elseif aura_env.whisper == "Tremor Totem" then
+        return 136108
+    elseif aura_env.whisper == "Strength of Earth Totem" then
+        return 136023
+    elseif aura_env.whisper == "Healing Stream Totem" then
+        return 135127
+    elseif aura_env.whisper == "Frost Shock" then
+        return 135849
+    elseif aura_env.whisper == "Searing Totem" then
+        return 135825
+    elseif aura_env.whisper == "AF" then
+        return 136163
+    elseif aura_env.whisper == "Stoneskin Totem" then
+        return 136098
+    elseif aura_env.whisper == "Fire Nova Totem" then
+        return 135824
+    else
+        return 136235
+    end
+end
